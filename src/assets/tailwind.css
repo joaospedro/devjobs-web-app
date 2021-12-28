@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.check-box:checked ~ .icon-check {
+    @apply opacity-100;
+}
+
+.list-items::marker {
+    @apply text-violet;
+}
+
+@media (min-width: 1024px) {
+
+    .img-container {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
