@@ -1,5 +1,5 @@
 <template>
-  <div class="job-card bg-transparent dark:bg-darkblue px-7 font-kumbh text-gray mt-16 w-80 h-56 rounded-lg transition-all duration-700">
+  <div class="job-card bg-transparent dark:bg-darkblue px-7 font-kumbh dark:text-gray text-darkgray mt-16 w-80 h-56 rounded-lg transition-all duration-700">
     <img class="relative select-none bottom-5 w-12 h-12 object-contain rounded-xl p-3" :src="`${job.logo}`" :style="`background-color: ${job.logoBackground}`"> 
     <div class="leading-9">
       <span class="inline-flex items-center space-x-2">
