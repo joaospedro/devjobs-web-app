@@ -7,7 +7,7 @@
         </div>
         <div class="text-center lg:text-left space-y-1.5">
           <h1 class="font-bold text-darkblue dark:text-white text-xl">{{company.company}}</h1>
-          <p class="text-gray">{{company.website}}</p>
+          <p class="dark:text-gray text-darkgray">{{company.website}}</p>
         </div>
       </div>
       <div class="bg-transparent dark:bg-darkgray dark:hover:bg-gray transition-colors duration-700 my-7 md:mr-10 py-3 px-6 rounded">
