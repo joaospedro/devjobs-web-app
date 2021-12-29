@@ -33,7 +33,7 @@ export default createStore({
   },
   plugins: [
     createPersistedState({
-      paths: ['jobs'],
+      paths: ['jobs', 'search'],
     }),
   ],
 });
