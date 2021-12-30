@@ -4,14 +4,14 @@
     <div class="space-y-10 pb-3 lg:space-y-0 flex lg:flex-row flex-col lg:items-center lg:justify-between">
       <div class="space-y-2">
         <span class="inline-flex items-center space-x-2 dark:text-gray text-darkgray">
-          <h6>{{job.postedAt}}</h6>
+          <p>{{job.postedAt}}</p>
           <svg class="fill-current" width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="2" cy="2" r="2"/>
           </svg>
-          <h6>{{job.contract}}</h6>
+          <p>{{job.contract}}</p>
         </span>
         <h1 class="font-bold text-darkblue dark:text-white lg:text-3xl text-xl">{{job.position}}</h1>
-        <h6 class="font-bold text-violet text-sm">{{job.location}}</h6>
+        <p class="font-bold text-violet text-sm">{{job.location}}</p>
       </div>
       <div class="bg-violet hover:bg-lightviolet transition-colors duration-700 text-center py-3 px-6 rounded">
         <a :href="`${job.apply}`">

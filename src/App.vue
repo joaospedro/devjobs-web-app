@@ -3,8 +3,8 @@
       <div class="max-w-5xl lg:mx-auto py-11 mx-12">
           <div class="flex justify-between items-center">
               <div class="logo">
-                <router-link to="/">
-                  <img :src="logo"/>
+                <router-link to="/" aria-label="Home page">
+                  <img :src="logo" alt="logo" />
                 </router-link>
               </div>
               <div class="theme-toggler">

@@ -14,10 +14,10 @@
     </div>
     <div class="inline-flex items-center">
       <div class="lg:inline-flex items-center gap-x-4 hidden">
-        <label class="pt-5 cursor-pointer">
-        <input type="checkbox" class="check-box h-6 w-6 appearance-none cursor-pointer bg-gray checked:bg-violet checked:opacity-100 opacity-20 rounded transition-all" v-model="fullTime">
-        <img :src="iconCheck" class="icon-check relative left-1 bottom-6 opacity-0" />
-        </label>
+        <div id="fulltime" class="pt-5 cursor-pointer">
+          <input type="checkbox" aria-labelledby="fulltime" class="check-box h-6 w-6 appearance-none cursor-pointer bg-gray checked:bg-violet checked:opacity-100 opacity-20 rounded transition-all" v-model="fullTime">
+          <img :src="iconCheck" alt="Check mark" class="icon-check relative left-1 bottom-6 opacity-0" />
+        </div>
         <span class="font-bold text-darkblue dark:text-white">Full Time Only</span>
       </div>
       <div @click="toggleMobile()" class="text-gray cursor-pointer block lg:hidden">
