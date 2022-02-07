@@ -1,4 +1,4 @@
-# Frontend Mentor - Devjobs web app solution
+# Devjobs web app solution
 
 This is a solution to the [Devjobs web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/devjobs-web-app-HuvC_LP4l).
 
